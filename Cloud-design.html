@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class="boxbody-ukraine cloud">
+            <a href="https://cityserve.us/ukrainian-crisis-2/" target="_blank">
+                <div class="box"> 
+                    <img src="images/ukraine/flag.webp" class="ukr-flag">
+                    <h3><span>Please click here</span> to provide support for refugees now fleeing the Russian invasion in Ukraine</h3> 
+                </div>
+            </a> 
+        </div>
+
+        <style>
+            /* Flag cloud design */
+
+        .boxbody-ukraine.cloud {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .boxbody-ukraine.cloud a {
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .boxbody-ukraine.cloud .box {
+            position: relative;
+            max-width: 770px;
+            padding: 0 2em 0 calc(2em + 110px);
+            display: flex;
+            background-image: url('images/ukraine/clouds.webp');
+            background-position: 0 15%;
+            background-size: cover;
+            box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+            align-items: center;
+            border: solid 1px;
+            overflow: hidden;
+        }
+        .boxbody-ukraine.cloud img.ukr-flag {
+            width: 110px;
+            position: absolute;
+            left: 20px;
+            bottom: -25px;
+        }
+        
+        .boxbody-ukraine.cloud h3 {
+            font-size: 28px;
+            margin: 16px 0;
+            text-align: center;
+            color: #fff;
+            text-shadow:
+                0  0 3px #000,
+                0  0 2px #000,
+                0  0 2px #000,
+                0  0 2px #000,
+                0  0 1px #000,
+                0  0 1px #000,
+                0  0 1px #000;
+        }
+        .boxbody-ukraine.cloud h3 span {
+            border-bottom: 1px solid #fff;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .boxbody-ukraine.cloud .box {
+                padding: 1em 1em 4em 1em;
+            }
+            .boxbody-ukraine.cloud img.ukr-flag {
+                bottom: -30px;
+            }
+        }
+        </style>
+    </body>
+</html>
